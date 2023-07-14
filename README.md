@@ -1,16 +1,31 @@
-# flutter_dictionary
+# Dicionário de palavras em Flutter
 
-A new Flutter project.
+Projeto realizado utilizando uma API pessoal com a listagem de palavras em inglês e a WordsAPI.
+É possível navegar entre as palavras, ver detalhes, consultar histórico e salvar favoritos.
 
-## Getting Started
+# Tecnologias
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Plugin shared_preferences (para gerenciamento de Cache)
+- Plugin dio (para gerenciamento de conexão entre as APIs)
+- Plugin animations (para navegação mais flúida entre as páginas)
 
-A few resources to get you started if this is your first Flutter project:
+# Instalação
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Após clonar o repositório (git clone [url do repositório]), basta rodar o comando:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - flutter pub get
+
+Este comando irá instalar todas as dependências necessárias para o correto funcionamento do projeto.
+
+Caso esteja utilizando MacOs com XCode e testando em IOS, pode ser necessária alguma configuração extra
+Obs. Esse projeto foi testado apenas em Windows e build para Android (Versão 13)
+
+O grandle está configurado para SDK mínimo 19, pois é necessário para o correto funcionamento de alguns plugins.
+
+Para rodar, basta utilizar o comando "flutter run".
+
+É altamente recomendado utilizar o VS Code com as devidas extensões de relacionadas ao Dart e Flutter, pois facilitam esse processo, nesse caso, basta pressionar F5 e selecionar o dispositivo de destino.
+
+
+
