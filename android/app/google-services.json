@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948008935887",
+    "project_id": "pilar-c37f1",
+    "storage_bucket": "pilar-c37f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948008935887:android:d5ec896d0445cf6a33b2ba",
+        "android_client_info": {
+          "package_name": "com.example.flutter_dictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948008935887-h0olbt09e8jllg0tvlb8fg1tjdc3tc7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA22yhPuixHUlIAQgTMWk8wctF7sKcKOIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948008935887-h0olbt09e8jllg0tvlb8fg1tjdc3tc7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
